@@ -6,7 +6,7 @@ from tkinter import ttk
 import tkinter.font as tkFont
 
 # Load data from Excel
-dfloc = pd.read_excel(r'/home/wmlabxbsma4y/USA2009_Transformed.xlsx')
+dfloc = pd.read_excel(r'/USA2009_Transformed.xlsx')
 df = dfloc
 team_names = sorted(df['Name'].unique().tolist())
 state_names = sorted(df['State'].unique().tolist())
